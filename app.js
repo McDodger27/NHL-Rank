@@ -32,3 +32,16 @@ let teams = [
     {name: 'Capitals', place: 'Washington', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/capitals.png'},
     {name: 'Jets', place: 'Winnipeg', conference: 'West', division: 'Central', wins: 1, color: 'gray', logo: 'logos/jets.png'}
 ];
+
+let atlanticRank = document.querySelectorAll(['.atlantic li']);
+let metropolitanRank = document.querySelectorAll(['.metropolitan li']);
+let centralRank = document.querySelectorAll(['.central li']);
+let pacificRank = document.querySelectorAll(['.pacific li']);
+let westRank = document.querySelectorAll(['.western li']);
+let eastRank = document.querySelectorAll(['.eastern li']);
+let allRank = document.querySelectorAll(['.all li']);
+
+let body = document.querySelector('body');
+
+let option1 = document.querySelector('.team1');
+let option2 = document.querySelector('.team2');
