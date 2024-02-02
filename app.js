@@ -135,3 +135,29 @@ while (team1 === team2) {
 //set options
 option1.src = team1.logo;
 option2.src = team2.logo;
+
+//when images are clicked
+option1.addEventListener('click', e => {
+    e.preventDefault();
+    team1.wins += team2.wins;
+    team1 = teams[0];
+    team2 = teams[0];
+    while (team1 === team2) {
+        generate();
+    };
+    option1.src = team1.logo;
+    option2.src = team2.logo;
+    rank();    
+});
+
+option2.addEventListener('click', e => {
+    e.preventDefault();
+    team2.wins += team1.wins
+    generate();
+    while (team1 === team2) {
+        generate();
+    };
+    option1.src = team1.logo;
+    option2.src = team2.logo;
+    rank();    
+});
