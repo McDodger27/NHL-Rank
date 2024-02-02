@@ -120,3 +120,14 @@ let rank = function(){
     }); 
 };
 rank();
+
+//generate function to set random teams
+let generate = () => {
+    team1 = teams[Math.floor(Math.random() * 32)];
+    team2 = teams[Math.floor(Math.random() * 32)];
+};
+
+//to ensure that the teams will not be the same
+while (team1 === team2) {
+    generate();
+};
