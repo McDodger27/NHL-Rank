@@ -57,3 +57,66 @@ let atlantic = teams.filter(team => team.division === 'Atlantic');
 let metropolitan = teams.filter(team => team.division === 'Metropolitan');
 let central = teams.filter(team => team.division === 'Central');
 let pacific = teams.filter(team => team.division === 'Pacific');
+
+let team1 = teams[0];
+let team2 = teams[0];
+
+//function for results
+let rank = function(){
+    atlantic.sort((a,b) => b.wins - a.wins);
+
+        let aCount = 0;
+    atlantic.forEach(team => {
+        atlanticRank[aCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        aCount++;
+    });
+
+    metropolitan.sort((a,b) => b.wins - a.wins);
+
+        let mCount = 0;
+    metropolitan.forEach(team => {
+        metropolitanRank[mCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        mCount++;
+    });
+
+    central.sort((a,b) => b.wins - a.wins);
+
+        let cCount = 0;
+    central.forEach(team => {
+        centralRank[cCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        cCount++;
+    });
+
+    pacific.sort((a,b) => b.wins - a.wins);
+
+        let pCount = 0;
+    pacific.forEach(team => {
+        pacificRank[pCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        pCount++;
+    });   
+
+    westConference.sort((a,b) => b.wins - a.wins);
+
+        let wCount = 0;
+    westConference.forEach(team => {
+        westRank[wCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        wCount++;
+    }); 
+
+    eastConference.sort((a,b) => b.wins - a.wins);
+
+        let eCount = 0;
+    eastConference.forEach(team => {
+        eastRank[eCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        eCount++;
+    });
+    
+    teams.sort((a,b) => b.wins - a.wins);
+
+        let allCount = 0;
+    teams.forEach(team => {
+        allRank[allCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+        allCount++;
+    }); 
+};
+rank();
