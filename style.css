@@ -16,3 +16,38 @@ h1 {
     cursor: pointer;
     padding: 30px;
 }
+.atlantic {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.metropolitan {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.central {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.pacific {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.western {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.eastern {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
+.all {
+    float: left;
+    font-size: large;
+    padding: 8px;
+}
