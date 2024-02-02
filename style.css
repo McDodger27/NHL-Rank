@@ -8,3 +8,11 @@ body {
 h1 {
     text-align: center;
 }
+.team1 {
+    cursor: pointer;
+    padding: 30px;
+}
+.team2 {
+    cursor: pointer;
+    padding: 30px;
+}
