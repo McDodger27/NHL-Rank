@@ -33,6 +33,7 @@ let teams = [
     {name: 'Jets', place: 'Winnipeg', conference: 'West', division: 'Central', wins: 1, color: 'gray', logo: 'logos/jets.png'}
 ];
 
+//handles to lists
 let atlanticRank = document.querySelectorAll(['.atlantic li']);
 let metropolitanRank = document.querySelectorAll(['.metropolitan li']);
 let centralRank = document.querySelectorAll(['.central li']);
@@ -43,5 +44,16 @@ let allRank = document.querySelectorAll(['.all li']);
 
 let body = document.querySelector('body');
 
+//handles to the option elements
 let option1 = document.querySelector('.team1');
 let option2 = document.querySelector('.team2');
+
+//filter by conference
+let eastConference = teams.filter(team => team.conference === 'East');
+let westConference = teams.filter(team => team.conference === 'West');
+
+//filter by division
+let atlantic = teams.filter(team => team.division === 'Atlantic');
+let metropolitan = teams.filter(team => team.division === 'Metropolitan');
+let central = teams.filter(team => team.division === 'Central');
+let pacific = teams.filter(team => team.division === 'Pacific');
