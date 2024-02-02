@@ -131,3 +131,7 @@ let generate = () => {
 while (team1 === team2) {
     generate();
 };
+
+//set options
+option1.src = team1.logo;
+option2.src = team2.logo;
