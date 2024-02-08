@@ -12,7 +12,9 @@ h1 {
     text-align: center;
 }
 .results {
-    opacity: 0.8;
+    font-size: x-large;
+    text-align: center;
+    opacity: 0.9;
     border-radius: 1em;
     background-color: lightgray;
 }
@@ -25,37 +27,38 @@ h1 {
     padding: 30px;
 }
 .atlantic {
-    float: left;
-    font-size: large;
-    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 100px;
+    background-color: black;
+    color: lightgray;
+    padding: 7px;
+    border-radius: 1em;
 }
 .metropolitan {
-    float: left;
-    font-size: large;
-    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 100px;
+    background-color: black;
+    color: lightgray;
+    padding: 7px;
+    border-radius: 1em;
 }
 .central {
-    float: left;
-    font-size: large;
-    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 100px;
+    background-color: black;
+    color: lightgray;
+    padding: 7px;
+    border-radius: 1em;
 }
 .pacific {
-    float: left;
-    font-size: large;
-    padding: 8px;
-}
-.western {
-    float: left;
-    font-size: large;
-    padding: 8px;
-}
-.eastern {
-    float: left;
-    font-size: large;
-    padding: 8px;
-}
-.all {
-    float: left;
-    font-size: large;
-    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 100px;
+    background-color: black;
+    color: lightgray;
+    padding: 7px;
+    border-radius: 1em;
 }

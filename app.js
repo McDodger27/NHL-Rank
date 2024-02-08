@@ -38,19 +38,12 @@ let atlanticRank = document.querySelectorAll(['.atlantic li']);
 let metropolitanRank = document.querySelectorAll(['.metropolitan li']);
 let centralRank = document.querySelectorAll(['.central li']);
 let pacificRank = document.querySelectorAll(['.pacific li']);
-let westRank = document.querySelectorAll(['.western li']);
-let eastRank = document.querySelectorAll(['.eastern li']);
-// let allRank = document.querySelectorAll(['.all li']);
 
 let body = document.querySelector('body');
 
 //handles to the option elements
 let option1 = document.querySelector('.team1');
 let option2 = document.querySelector('.team2');
-
-//filter by conference
-let eastConference = teams.filter(team => team.conference === 'East');
-let westConference = teams.filter(team => team.conference === 'West');
 
 //filter by division
 let atlantic = teams.filter(team => team.division === 'Atlantic');
@@ -94,30 +87,6 @@ let rank = function(){
         pacificRank[pCount].innerHTML = team.place + " " + team.name + " " + team.wins;
         pCount++;
     });   
-
-    westConference.sort((a,b) => b.wins - a.wins);
-
-        let wCount = 0;
-    westConference.forEach(team => {
-        westRank[wCount].innerHTML = team.place + " " + team.name + " " + team.wins;
-        wCount++;
-    }); 
-
-    eastConference.sort((a,b) => b.wins - a.wins);
-
-        let eCount = 0;
-    eastConference.forEach(team => {
-        eastRank[eCount].innerHTML = team.place + " " + team.name + " " + team.wins;
-        eCount++;
-    });
-    
-    // teams.sort((a,b) => b.wins - a.wins);
-
-    //     let allCount = 0;
-    // teams.forEach(team => {
-    //     allRank[allCount].innerHTML = team.place + " " + team.name + " " + team.wins;
-    //     allCount++;
-    // }); 
 };
 rank();
 
