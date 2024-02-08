@@ -40,7 +40,7 @@ let centralRank = document.querySelectorAll(['.central li']);
 let pacificRank = document.querySelectorAll(['.pacific li']);
 let westRank = document.querySelectorAll(['.western li']);
 let eastRank = document.querySelectorAll(['.eastern li']);
-let allRank = document.querySelectorAll(['.all li']);
+// let allRank = document.querySelectorAll(['.all li']);
 
 let body = document.querySelector('body');
 
@@ -111,13 +111,13 @@ let rank = function(){
         eCount++;
     });
     
-    teams.sort((a,b) => b.wins - a.wins);
+    // teams.sort((a,b) => b.wins - a.wins);
 
-        let allCount = 0;
-    teams.forEach(team => {
-        allRank[allCount].innerHTML = team.place + " " + team.name + " " + team.wins;
-        allCount++;
-    }); 
+    //     let allCount = 0;
+    // teams.forEach(team => {
+    //     allRank[allCount].innerHTML = team.place + " " + team.name + " " + team.wins;
+    //     allCount++;
+    // }); 
 };
 rank();
 
