@@ -38,6 +38,7 @@ let atlanticRank = document.querySelectorAll(['.atlantic li']);
 let metropolitanRank = document.querySelectorAll(['.metropolitan li']);
 let centralRank = document.querySelectorAll(['.central li']);
 let pacificRank = document.querySelectorAll(['.pacific li']);
+const favResult = document.querySelector('h3');
 
 let body = document.querySelector('body');
 
@@ -53,6 +54,7 @@ let pacific = teams.filter(team => team.division === 'Pacific');
 
 let team1 = teams[0];
 let team2 = teams[0];
+let fav = teams[0];
 
 //function for results
 let rank = function(){
@@ -95,6 +97,12 @@ let generate = () => {
     team1 = teams[Math.floor(Math.random() * 32)];
     team2 = teams[Math.floor(Math.random() * 32)];
 };
+//function to display favorite team
+const favorite = () => {
+    teams.sort((a,b) => b.wins - a.wins); 
+    fav = teams[0];
+    favResult.innerHTML = `Favorite Team: ${fav.place} ${fav.name}`;
+}
 
 //to ensure that the teams will not be the same
 while (team1 === team2) {
@@ -116,7 +124,8 @@ option1.addEventListener('click', e => {
     };
     option1.src = team1.logo;
     option2.src = team2.logo;
-    rank();    
+    rank();
+    favorite();    
 });
 
 option2.addEventListener('click', e => {
@@ -128,5 +137,6 @@ option2.addEventListener('click', e => {
     };
     option1.src = team1.logo;
     option2.src = team2.logo;
-    rank();    
+    rank();   
+    favorite(); 
 });
