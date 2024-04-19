@@ -67,3 +67,15 @@ h1 {
     padding: 7px;
     border-radius: 10px;
 }
+.lock, .reload {
+    font-size: x-large;    
+    border: none;
+    background-color: black;
+    color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;     
+}
+.reload {
+    font-size: 150%;
+    margin: 30px;
+}

@@ -40,6 +40,8 @@ let centralRank = document.querySelectorAll(['.central li']);
 let pacificRank = document.querySelectorAll(['.pacific li']);
 const favResult = document.querySelector('h3');
 const favIMG = document.querySelector('.favLogo');
+const lock = document.querySelector('.lock');
+const results = document.querySelector('.results');
 
 let body = document.querySelector('body');
 
@@ -141,4 +143,13 @@ option2.addEventListener('click', e => {
     option2.src = team2.logo;
     rank();   
     favorite(); 
+});
+lock.addEventListener('click', () => {
+    results.innerHTML = `<h2>Congratulations!</h2>
+        <h3>Favorite Team: ${fav.place} ${fav.name}
+        <br><img class="fav" src="${fav.logo}" alt="">
+        <br><br><button class="reload"onClick="window.location.reload();">Play Again</button>
+        <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p>`;
+    option1.src = ``;
+    option2.src = ``;
 });
