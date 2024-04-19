@@ -1,0 +1,118 @@
+.ducks {    
+    background-image: url('players/trevor_zegras.jfif');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    position: relative;
+    float: right;    
+}
+.coyotes {
+    background-image: url('players/clayton_keller.jfif');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.bruins {
+    background-image: url('players/brad_marchand.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.sabers {
+    background-image: url('players/tage_thompson.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.flames {
+    background-image: url('players/nazem_kadri.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.hurricanes {    
+    background-image: url('players/sebastian_ahos.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    position: relative;
+    float: right;    
+}
+.black-hawks {
+    background-image: url('players/connor_bedard.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    position: relative;
+    float: right;    
+}
+.avalanche {
+    background-image: url('players/nathan_mackinnon.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.blue-jackets {
+    background-image: url('players/johnny_gaudreau.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.stars {
+    background-image: url('players/jake_oettinger.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.red-wings {
+    background-image: url('players/dylan_larkin.jfif');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.oilers {
+    background-image: url('players/connor_mcdavid.jfif');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.panthers {
+    background-image: url('players/matthew_tkachuk.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.canadiens {    
+    background-image: url('players/nick_suzuki.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.islanders {
+    background-image: url('players/matt_barzal.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.flyers {    
+    background-image: url('players/owen_tippett.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
