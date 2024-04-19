@@ -2,14 +2,14 @@ let teams = [
     {name: 'Ducks', place: 'Anaheim', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/ducks.png'},
     {name: 'Coyotes', place: 'Arizona', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/coyotes.png'},
     {name: 'Bruins', place: 'Boston', conference: 'East', division: 'Atlantic', wins: 1, color: 'yellow', logo: 'logos/bruins.png'},
-    {name: 'Sabres', place: 'Buffalo', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/sabres.png'},
+    {name: 'Sabers', place: 'Buffalo', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/sabres.png'},
     {name: 'Flames', place: 'Calgary', conference: 'West', division: 'Pacific', wins: 1, color: 'red', logo: 'logos/flames.png'},
     {name: 'Hurricanes', place: 'Carolina', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/hurricanes.png'},
-    {name: 'Black Hawks', place: 'Chicago', conference: 'West', division: 'Central', wins: 1, color: 'red', logo: 'logos/blackHawks.png'},
+    {name: 'Black-Hawks', place: 'Chicago', conference: 'West', division: 'Central', wins: 1, color: 'red', logo: 'logos/blackHawks.png'},
     {name: 'Avalanche', place: 'Colorado', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/avalanche.png'},
-    {name: 'Blue Jackets', place: 'Columbus', conference: 'East', division: 'Metropolitan', wins: 1, color: 'dark-blue', logo: 'logos/blueJackets.png'},
+    {name: 'Blue-Jackets', place: 'Columbus', conference: 'East', division: 'Metropolitan', wins: 1, color: 'dark-blue', logo: 'logos/blueJackets.png'},
     {name: 'Stars', place: 'Dallas', conference: 'West', division: 'Central', wins: 1, color: 'green', logo: 'logos/stars.png'},
-    {name: 'Red Wings', place: 'Detroit', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/redWings.png'},
+    {name: 'Red-Wings', place: 'Detroit', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/redWings.png'},
     {name: 'Oilers', place: 'Edmonton', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/oilers.png'},
     {name: 'Panthers', place: 'Florida', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/panthers.png'},
     {name: 'Kings', place: 'Los Angeles', conference: 'West', division: 'Pacific', wins: 1, color: 'white', logo: 'logos/kings.png'},
@@ -145,11 +145,13 @@ option2.addEventListener('click', e => {
     favorite(); 
 });
 lock.addEventListener('click', () => {
-    results.innerHTML = `<h2>Congratulations!</h2>
+    body.innerHTML = `<div class="results"><h2>Congratulations!</h2>
         <h3>Favorite Team: ${fav.place} ${fav.name}
         <br><img class="fav" src="${fav.logo}" alt="">
         <br><br><button class="reload"onClick="window.location.reload();">Play Again</button>
-        <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p>`;
+        <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p></div>`;
+    results.classList.add('player');
+    body.classList.add(fav.name);
     option1.src = ``;
     option2.src = ``;
 });
