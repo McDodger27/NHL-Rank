@@ -39,6 +39,7 @@ let metropolitanRank = document.querySelectorAll(['.metropolitan li']);
 let centralRank = document.querySelectorAll(['.central li']);
 let pacificRank = document.querySelectorAll(['.pacific li']);
 const favResult = document.querySelector('h3');
+const favIMG = document.querySelector('.favLogo');
 
 let body = document.querySelector('body');
 
@@ -102,6 +103,7 @@ const favorite = () => {
     teams.sort((a,b) => b.wins - a.wins); 
     fav = teams[0];
     favResult.innerHTML = `Favorite Team: ${fav.place} ${fav.name}`;
+    favIMG.src = fav.logo;
 }
 
 //to ensure that the teams will not be the same
