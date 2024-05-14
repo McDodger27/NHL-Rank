@@ -19,7 +19,7 @@ h1 {
 .results {
     font-size: x-large;
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.85;
     border-radius: 10px;
     background-color: lightgray;
 }
@@ -78,5 +78,9 @@ h1 {
 .reload {
     font-size: 150%;
     margin: 30px;
+}
+.stanley_cup {
+    margin: 2px;
+    margin-top: 9px;
 }
 

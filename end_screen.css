@@ -95,6 +95,20 @@
     background-size: 100%, 100%;
     background-attachment: fixed;
 }
+.kings {
+    background-image: url('players/anze_kopitar.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.wild {    
+    background-image: url('players/kirill_kaprizov.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
 .canadiens {    
     background-image: url('players/nick_suzuki.jpg');
     max-width: fit-content;  
@@ -102,8 +116,36 @@
     background-size: 100%, 100%;
     background-attachment: fixed;
 }
+.predators {    
+    background-image: url('players/roman_josi.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.devils {    
+    background-image: url('players/jack_hughes.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
 .islanders {
     background-image: url('players/matt_barzal.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.rangers {    
+    background-image: url('players/igor_shesterkin.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.senators {
+    background-image: url('players/connor_brown.jpg');
     max-width: fit-content;  
     background-repeat: no-repeat;
     background-size: 100%, 100%;

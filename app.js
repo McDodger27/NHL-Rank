@@ -1,36 +1,36 @@
 let teams = [
-    {name: 'Ducks', place: 'Anaheim', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/ducks.png'},
-    {name: 'Coyotes', place: 'Arizona', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/coyotes.png'},
-    {name: 'Bruins', place: 'Boston', conference: 'East', division: 'Atlantic', wins: 1, color: 'yellow', logo: 'logos/bruins.png'},
-    {name: 'Sabers', place: 'Buffalo', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/sabres.png'},
-    {name: 'Flames', place: 'Calgary', conference: 'West', division: 'Pacific', wins: 1, color: 'red', logo: 'logos/flames.png'},
-    {name: 'Hurricanes', place: 'Carolina', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/hurricanes.png'},
-    {name: 'Black-Hawks', place: 'Chicago', conference: 'West', division: 'Central', wins: 1, color: 'red', logo: 'logos/blackHawks.png'},
-    {name: 'Avalanche', place: 'Colorado', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/avalanche.png'},
-    {name: 'Blue-Jackets', place: 'Columbus', conference: 'East', division: 'Metropolitan', wins: 1, color: 'dark-blue', logo: 'logos/blueJackets.png'},
-    {name: 'Stars', place: 'Dallas', conference: 'West', division: 'Central', wins: 1, color: 'green', logo: 'logos/stars.png'},
-    {name: 'Red-Wings', place: 'Detroit', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/redWings.png'},
-    {name: 'Oilers', place: 'Edmonton', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/oilers.png'},
-    {name: 'Panthers', place: 'Florida', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/panthers.png'},
-    {name: 'Kings', place: 'Los Angeles', conference: 'West', division: 'Pacific', wins: 1, color: 'white', logo: 'logos/kings.png'},
-    {name: 'Wild', place: 'Minnesota', conference: 'West', division: 'Central', wins: 1, color: 'dark-green', logo: 'logos/wild.png'},
-    {name: 'Canadiens', place: 'Montreal', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/canadiens.png'},
-    {name: 'Predators', place: 'Nashville', conference: 'West', division: 'Central', wins: 1, color: 'yellow', logo: 'logos/predators.png'},
-    {name: 'Devils', place: 'New Jersey', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/devils.png'},
-    {name: 'Islanders', place: 'New York', conference: 'East', division: 'Metropolitan', wins: 1, color: 'orange', logo: 'logos/islanders.png'},
-    {name: 'Rangers', place: 'New York', conference: 'East', division: 'Metropolitan', wins: 1, color: 'blue', logo: 'logos/rangers.png'},
-    {name: 'Senators', place: 'Ottawa', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/senators.png'},
-    {name: 'Flyers', place: 'Philadelphia', conference: 'East', division: 'Metropolitan', wins: 1, color: 'orange', logo: 'logos/flyers.png'},
-    {name: 'Penguins', place: 'Pittsburgh', conference: 'East', division: 'Metropolitan', wins: 1, color: 'yellow', logo: 'logos/penguins.png'},
-    {name: 'Sharks', place: 'San Jose', conference: 'West', division: 'Pacific', wins: 1, color: 'teal', logo: 'logos/sharks.png'},
-    {name: 'Kraken', place: 'Seattle', conference: 'West', division: 'Pacific', wins: 1, color: 'light-blue', logo: 'logos/kraken.png'},
-    {name: 'Blues', place: 'St. Louis', conference: 'West', division: 'Central', wins: 1, color: 'dark-blue', logo: 'logos/blues.png'},
-    {name: 'Lightning', place: 'Tampa Bay', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/lightning.png'},
-    {name: 'Maple Leafs', place: 'Toronto', conference: 'East', division: 'Atlantic', wins: 1, color: 'dark-blue', logo: 'logos/mapleLeafs.png'},
-    {name: 'Canucks', place: 'Vancouver', conference: 'West', division: 'Pacific', wins: 1, color: 'green', logo: 'logos/canucks.png'},
-    {name: 'Golden Knights', place: 'Vegas', conference: 'West', division: 'Pacific', wins: 1, color: 'gold', logo: 'logos/goldenKnights.png'},
-    {name: 'Capitals', place: 'Washington', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/capitals.png'},
-    {name: 'Jets', place: 'Winnipeg', conference: 'West', division: 'Central', wins: 1, color: 'gray', logo: 'logos/jets.png'}
+    {name: 'Ducks', place: 'Anaheim', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/ducks.png', cups: 1},
+    {name: 'Coyotes', place: 'Arizona', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/coyotes.png', cups: 0},
+    {name: 'Bruins', place: 'Boston', conference: 'East', division: 'Atlantic', wins: 1, color: 'yellow', logo: 'logos/bruins.png', cups: 6},
+    {name: 'Sabers', place: 'Buffalo', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/sabres.png', cups: 0},
+    {name: 'Flames', place: 'Calgary', conference: 'West', division: 'Pacific', wins: 1, color: 'red', logo: 'logos/flames.png', cups: 1},
+    {name: 'Hurricanes', place: 'Carolina', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/hurricanes.png', cups: 1},
+    {name: 'Black-Hawks', place: 'Chicago', conference: 'West', division: 'Central', wins: 1, color: 'red', logo: 'logos/blackHawks.png', cups: 6},
+    {name: 'Avalanche', place: 'Colorado', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/avalanche.png', cups: 3},
+    {name: 'Blue-Jackets', place: 'Columbus', conference: 'East', division: 'Metropolitan', wins: 1, color: 'dark-blue', logo: 'logos/blueJackets.png', cups: 0},
+    {name: 'Stars', place: 'Dallas', conference: 'West', division: 'Central', wins: 1, color: 'green', logo: 'logos/stars.png', cups: 1},
+    {name: 'Red-Wings', place: 'Detroit', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/redWings.png', cups: 11},
+    {name: 'Oilers', place: 'Edmonton', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/oilers.png', cups: 5},
+    {name: 'Panthers', place: 'Florida', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/panthers.png', cups: 0},
+    {name: 'Kings', place: 'Los Angeles', conference: 'West', division: 'Pacific', wins: 1, color: 'white', logo: 'logos/kings.png', cups: 2},
+    {name: 'Wild', place: 'Minnesota', conference: 'West', division: 'Central', wins: 1, color: 'dark-green', logo: 'logos/wild.png', cups: 0},
+    {name: 'Canadiens', place: 'Montreal', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/canadiens.png', cups: 24},
+    {name: 'Predators', place: 'Nashville', conference: 'West', division: 'Central', wins: 1, color: 'yellow', logo: 'logos/predators.png', cups: 0},
+    {name: 'Devils', place: 'New Jersey', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/devils.png', cups: 3},
+    {name: 'Islanders', place: 'New York', conference: 'East', division: 'Metropolitan', wins: 1, color: 'orange', logo: 'logos/islanders.png', cups: 4},
+    {name: 'Rangers', place: 'New York', conference: 'East', division: 'Metropolitan', wins: 1, color: 'blue', logo: 'logos/rangers.png', cups: 4},
+    {name: 'Senators', place: 'Ottawa', conference: 'East', division: 'Atlantic', wins: 1, color: 'red', logo: 'logos/senators.png', cups: 0},
+    {name: 'Flyers', place: 'Philadelphia', conference: 'East', division: 'Metropolitan', wins: 1, color: 'orange', logo: 'logos/flyers.png', cups: 2},
+    {name: 'Penguins', place: 'Pittsburgh', conference: 'East', division: 'Metropolitan', wins: 1, color: 'yellow', logo: 'logos/penguins.png', cups: 5},
+    {name: 'Sharks', place: 'San Jose', conference: 'West', division: 'Pacific', wins: 1, color: 'teal', logo: 'logos/sharks.png', cups: 0},
+    {name: 'Kraken', place: 'Seattle', conference: 'West', division: 'Pacific', wins: 1, color: 'light-blue', logo: 'logos/kraken.png', cups: 0},
+    {name: 'Blues', place: 'St. Louis', conference: 'West', division: 'Central', wins: 1, color: 'dark-blue', logo: 'logos/blues.png', cups: 1},
+    {name: 'Lightning', place: 'Tampa Bay', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/lightning.png', cups: 3},
+    {name: 'Maple Leafs', place: 'Toronto', conference: 'East', division: 'Atlantic', wins: 1, color: 'dark-blue', logo: 'logos/mapleLeafs.png', cups: 13},
+    {name: 'Canucks', place: 'Vancouver', conference: 'West', division: 'Pacific', wins: 1, color: 'green', logo: 'logos/canucks.png', cups: 0},
+    {name: 'Golden Knights', place: 'Vegas', conference: 'West', division: 'Pacific', wins: 1, color: 'gold', logo: 'logos/goldenKnights.png', cups: 1},
+    {name: 'Capitals', place: 'Washington', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/capitals.png', cups: 1},
+    {name: 'Jets', place: 'Winnipeg', conference: 'West', division: 'Central', wins: 1, color: 'gray', logo: 'logos/jets.png', cups: 0}
 ];
 
 //handles to lists
@@ -148,9 +148,20 @@ lock.addEventListener('click', () => {
     body.innerHTML = `<div class="results"><h2>Congratulations!</h2>
         <h3>Favorite Team: ${fav.place} ${fav.name}
         <br><img class="fav" src="${fav.logo}" alt="">
+        <div class="stanley_cups"><br>Stanley Cup Wins: ${fav.cups}<br></div>
         <br><br><button class="reload"onClick="window.location.reload();">Play Again</button>
         <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p></div>`;
+    champDiv = document.querySelector('.stanley_cups');
+    if (fav.cups > 0) {
+        for (let i = 0; i < fav.cups; i++) {
+            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';        
+        }
+    }  
+    else {
+        champDiv.innerHTML += "They have never won a Stanley Cup";
+    }  
     results.classList.add('player');
+    results.classList.add('endScreen');
     body.classList.add(fav.name);
     option1.src = ``;
     option2.src = ``;
