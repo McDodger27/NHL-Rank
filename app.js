@@ -26,9 +26,9 @@ let teams = [
     {name: 'Kraken', place: 'Seattle', conference: 'West', division: 'Pacific', wins: 1, color: 'light-blue', logo: 'logos/kraken.png', cups: 0},
     {name: 'Blues', place: 'St. Louis', conference: 'West', division: 'Central', wins: 1, color: 'dark-blue', logo: 'logos/blues.png', cups: 1},
     {name: 'Lightning', place: 'Tampa Bay', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/lightning.png', cups: 3},
-    {name: 'Maple Leafs', place: 'Toronto', conference: 'East', division: 'Atlantic', wins: 1, color: 'dark-blue', logo: 'logos/mapleLeafs.png', cups: 13},
+    {name: 'Maple-Leafs', place: 'Toronto', conference: 'East', division: 'Atlantic', wins: 1, color: 'dark-blue', logo: 'logos/mapleLeafs.png', cups: 13},
     {name: 'Canucks', place: 'Vancouver', conference: 'West', division: 'Pacific', wins: 1, color: 'green', logo: 'logos/canucks.png', cups: 0},
-    {name: 'Golden Knights', place: 'Vegas', conference: 'West', division: 'Pacific', wins: 1, color: 'gold', logo: 'logos/goldenKnights.png', cups: 1},
+    {name: 'Golden-Knights', place: 'Vegas', conference: 'West', division: 'Pacific', wins: 1, color: 'gold', logo: 'logos/goldenKnights.png', cups: 1},
     {name: 'Capitals', place: 'Washington', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/capitals.png', cups: 1},
     {name: 'Jets', place: 'Winnipeg', conference: 'West', division: 'Central', wins: 1, color: 'gray', logo: 'logos/jets.png', cups: 0}
 ];
@@ -152,7 +152,17 @@ lock.addEventListener('click', () => {
         <br><br><button class="reload"onClick="window.location.reload();">Play Again</button>
         <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p></div>`;
     champDiv = document.querySelector('.stanley_cups');
-    if (fav.cups > 0) {
+    if (fav.cups > 10) {
+        let count = 0;
+        for (count; count < 10; count++) {
+            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';        
+        }
+        champDiv.innerHTML += '<br>';
+        for (count; count < fav.cups; count++){
+            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';
+        }
+    }
+    else if (fav.cups > 0) {
         for (let i = 0; i < fav.cups; i++) {
             champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';        
         }

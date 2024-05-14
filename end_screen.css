@@ -158,3 +158,73 @@
     background-size: 100%, 100%;
     background-attachment: fixed;
 }
+.penguins {    
+    background-image: url('players/sidney_crosby.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.sharks {        
+    background-image: url('players/logan_couture.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;    
+}
+.kraken {    
+    background-image: url('players/vince_dunn.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.blues {    
+    background-image: url('players/brandon_saad.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.lightning {    
+    background-image: url('players/andrei_vasilevskiy.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.maple-leafs {    
+    background-image: url('players/auston_matthews.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.canucks {    
+    background-image: url('players/quin_hughes.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.golden-knights {    
+    background-image: url('players/mark_stone.jpeg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.capitals {    
+    background-image: url('players/alex_oveghkin.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
+.jets {    
+    background-image: url('players/kyle_connor.jpg');
+    max-width: fit-content;  
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+}
