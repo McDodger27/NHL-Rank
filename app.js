@@ -1,6 +1,5 @@
 let teams = [
     {name: 'Ducks', place: 'Anaheim', conference: 'West', division: 'Pacific', wins: 1, color: 'orange', logo: 'logos/ducks.png', cups: 1},
-    {name: 'Coyotes', place: 'Arizona', conference: 'West', division: 'Central', wins: 1, color: 'maroon', logo: 'logos/coyotes.png', cups: 0},
     {name: 'Bruins', place: 'Boston', conference: 'East', division: 'Atlantic', wins: 1, color: 'yellow', logo: 'logos/bruins.png', cups: 6},
     {name: 'Sabers', place: 'Buffalo', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/sabres.png', cups: 0},
     {name: 'Flames', place: 'Calgary', conference: 'West', division: 'Pacific', wins: 1, color: 'red', logo: 'logos/flames.png', cups: 1},
@@ -27,6 +26,7 @@ let teams = [
     {name: 'Blues', place: 'St. Louis', conference: 'West', division: 'Central', wins: 1, color: 'dark-blue', logo: 'logos/blues.png', cups: 1},
     {name: 'Lightning', place: 'Tampa Bay', conference: 'East', division: 'Atlantic', wins: 1, color: 'blue', logo: 'logos/lightning.png', cups: 3},
     {name: 'Maple-Leafs', place: 'Toronto', conference: 'East', division: 'Atlantic', wins: 1, color: 'dark-blue', logo: 'logos/mapleLeafs.png', cups: 13},
+    {name: 'Hockey-Club', place: 'Utah', conference: 'West', division: 'Central', wins: 1, color: 'black', logo: 'logos/utah-hc.png', cups: 0},
     {name: 'Canucks', place: 'Vancouver', conference: 'West', division: 'Pacific', wins: 1, color: 'green', logo: 'logos/canucks.png', cups: 0},
     {name: 'Golden-Knights', place: 'Vegas', conference: 'West', division: 'Pacific', wins: 1, color: 'gold', logo: 'logos/goldenKnights.png', cups: 1},
     {name: 'Capitals', place: 'Washington', conference: 'East', division: 'Metropolitan', wins: 1, color: 'red', logo: 'logos/capitals.png', cups: 1},
