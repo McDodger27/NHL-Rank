@@ -152,19 +152,16 @@ lock.addEventListener('click', () => {
         <br><br><button class="reload"onClick="window.location.reload();">Play Again</button>
         <p>Try the NFL version: <a href="https://mcdodger27.github.io/NFL-Rank/">https://mcdodger27.github.io/NFL-Rank/</a></p></div>`;
     champDiv = document.querySelector('.stanley_cups');
-    if (fav.cups > 10) {
-        let count = 0;
-        for (count; count < 10; count++) {
-            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';        
-        }
-        champDiv.innerHTML += '<br>';
-        for (count; count < fav.cups; count++){
-            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';
-        }
-    }
-    else if (fav.cups > 0) {
-        for (let i = 0; i < fav.cups; i++) {
-            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">';        
+    let cupWins = fav.cups;
+    let count = 0;  
+    if (cupWins > 0) {
+        for (let i = 0; i < cupWins; i++) {
+            champDiv.innerHTML += '<img class="stanley_cup" src="logos/stanley_cup.jpg" alt="">'; 
+            count++;
+            if (count == 10){
+                champDiv.innerHTML += '<br>';
+                count = 0;
+            };    
         }
     }  
     else {
